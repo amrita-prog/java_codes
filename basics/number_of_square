@@ -1,0 +1,17 @@
+package basics;
+
+import java.util.Scanner;
+
+public class square {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number : ");
+        double x = sc.nextInt();
+        System.out.println("enter a number of square : ");
+        double n = sc.nextInt();
+
+        double square = Math.pow(x,n);
+        System.out.println(square);
+
+    }
+}
